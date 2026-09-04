@@ -1,0 +1,11 @@
+{
+  "name": "stingjs-gauntlet",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check scripts/check-integrity.mjs && node --check scripts/write-evidence.mjs"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
